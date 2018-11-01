@@ -1,0 +1,42 @@
+
+.lcHeader{
+    height: 64px;
+    padding: 0;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,21,41,.08);
+    position: relative;
+}
+
+    // 导航样式
+.headerRight{
+    float: right;
+    height: 100%;
+    overflow: hidden;
+}
+.lcAction{
+    cursor: pointer;
+    padding: 0 12px;
+    display: inline-block;
+    transition: all .3s;
+    height: 100%;
+}
+.lcDropdown{
+    height: 100%;
+
+    .dropdownName{
+        margin-left: 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+.lcTrigger{
+    font-size: 20px;
+    height: 64px;
+    cursor: pointer;
+    transition: all .3s,padding 0s;
+    padding: 22px 24px;
+}
+.lcTrigger:active{
+    background-image: -webkit-linear-gradient(to top,rgba(0,0,0,.05),rgba(0,0,0,.05));
+    background-image: linear-gradient(to top,rgba(0,0,0,.05),rgba(0,0,0,.05));
+}
